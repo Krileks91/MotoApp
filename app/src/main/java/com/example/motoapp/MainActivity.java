@@ -17,8 +17,6 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
-import com.example.motoapp.Dialog.DialogAbout;
-import com.example.motoapp.Dialog.DialogChoose;
 import com.example.motoapp.Fragment.DetailsFragment;
 import com.example.motoapp.Fragment.KategorijaFragment;
 import com.example.motoapp.Fragment.ListFragment;

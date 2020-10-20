@@ -1,4 +1,4 @@
-package com.example.motoapp.Dialog;
+package com.example.motoapp;
 
 import android.app.AlertDialog;
 import android.content.Context;
