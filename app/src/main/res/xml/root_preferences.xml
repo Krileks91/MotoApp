@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Ime Moto Kluba">
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="promeni_ime"
+            android:summary="Dozvoli promenu imena Moto Kluba"
+            android:title="Promeni ime Moto Kluba" />
+        <ListPreference
+            android:defaultValue="1"
+            android:dependency="promeni_ime"
+            android:entries="@array/izmena_ImenaUnos"
+            android:entryValues="@array/izmena_ImenaVrednost"
+            android:key="list_preference_1"
+            android:title="Ime Moto Kluba" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Adresa Moto Kluba">
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="promeni_adresu"
+            android:summary="Dozvoli promenu adrese Moto Kluba"
+            android:title="Promeni adresu Moto Kluba" />
+        <ListPreference
+            android:defaultValue="1"
+            android:dependency="promeni_adresu"
+            android:entries="@array/izmena_AdresaUnos"
+            android:entryValues="@array/izmena_AdresaVrednost"
+            android:key="list_preference_2"
+            android:title="Adresa Moto Kluba" />
+    </PreferenceCategory>
+</PreferenceScreen>
